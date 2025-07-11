@@ -48,6 +48,10 @@ body {
   border-radius: 8px;
 }
 
+.about-section {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .socials a {
   color: #0077cc;
   text-decoration: none;
