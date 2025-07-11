@@ -72,22 +72,3 @@ body {
   margin-top: 0.5rem;
   line-height: 1.6;
 }
-
-.conference-section ul {
-  padding-left: 1.5rem;
-  list-style-type: disc;
-}
-
-.conference-section li {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.conference-section a {
-  color: teal;
-  text-decoration: none;
-}
-
-.conference-section a:hover {
-  text-decoration: underline;
-}
