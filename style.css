@@ -52,3 +52,19 @@ body {
   color: #0077cc;
   text-decoration: none;
 }
+
+.edu-entry {
+  margin-bottom: 2rem;
+}
+.edu-title {
+  font-size: 1.1rem;
+}
+.bullet {
+  margin-right: 0.5rem;
+  color: black;
+}
+.edu-content {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
