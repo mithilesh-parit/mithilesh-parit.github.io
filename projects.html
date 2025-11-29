@@ -44,13 +44,33 @@
     }
 
     h2 {
-      margin-top: 2.5rem;
+      margin-top: 2rem;
       font-size: 1.6rem;
       border-bottom: 1px solid #eee;
       padding-bottom: 0.4rem;
     }
 
-    ol, ul {
+    /* Remove default bullet dots */
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      list-style: none;
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 1.8rem;
+      line-height: 1.6;
+    }
+
+    .bullet {
+      margin-right: 0.6rem;
+      font-size: 1.2rem;
+      margin-top: 0.2rem;
+    }
+
+    ol {
       padding-left: 1.5rem;
     }
 
@@ -72,7 +92,6 @@
 
     .date {
       display: block;
-      font-style: normal;
       color: #666;
       margin-top: 0.2rem;
     }
@@ -98,17 +117,18 @@
   <div class="container">
     <h1>Research Experience</h1>
 
-    <div class="container">
     <h2>Doctoral Thesis</h2>
     <ul>
       <li>
         <span class="bullet">❖</span>
-        <span class="title">Experimental and Theoretical Study of Quantum Droplets with Ultracold Dipolar Atoms</span>
-        <div class="supervisor">
-          Advisor: Prof. Gyu-Boong Jo, HKUST, Hong Kong<br>
-          <span class="date">Year: 2020/09 - 2025/07</span>
+        <div>
+          <span class="title">Experimental and Theoretical Study of Quantum Droplets with Ultracold Dipolar Atoms</span>
+          <div class="supervisor">
+            Advisor: Prof. Gyu-Boong Jo, HKUST, Hong Kong<br>
+            <span class="date">Year: 2020/09 - 2025/07</span>
+          </div>
+          <div class="affiliation">Department of Physics, HKUST, Hong Kong</div>
         </div>
-        <div class="affiliation">Department of Physics, HKUST, Hong Kong</div>
       </li>
     </ul>
 
@@ -129,7 +149,7 @@
           Supervisor: Prof. Thomas Bourdel
           <span class="date">November 2018 – February 2019</span>
         </div>
-        <div class="affiliation">Atom Optics Group (founded by Prof. Alain Aspect, Nobel Prize in Physics 2022), Institut d’Optique Graduate School, Palaiseau, France</div>
+        <div class="affiliation">Atom Optics Group, Institut d’Optique Graduate School, Palaiseau, France</div>
       </li>
 
       <li>
@@ -140,7 +160,7 @@
         </div>
         <div class="affiliation">Department of Physical Sciences, IISER Kolkata</div>
       </li>
-      
+
       <li>
         <span class="title">Quantum correlations in low-dimensional spin systems</span>
         <div class="supervisor">
@@ -163,4 +183,13 @@
       <li>
         <span class="title">Raman scattering by a high quality factor optical microcavity</span>
         <div class="supervisor">
-          Supervisor: Prof. Venkata Ramanaiah Danth
+          Supervisor: Prof. Venkata Ramanaiah Dantham
+          <span class="date">May 2014 – July 2014</span>
+        </div>
+        <div class="affiliation">Indian Institute of Technology Patna</div>
+      </li>
+    </ol>
+
+  </div>
+</body>
+</html>
