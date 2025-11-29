@@ -30,7 +30,7 @@
 
     .container {
       max-width: 900px;
-      margin: 3rem auto;
+      margin: 2rem auto;   /* reduced space */
       padding: 0 1rem;
       background: #fff;
       border-radius: 8px;
@@ -38,13 +38,14 @@
 
     h1 {
       font-size: 2rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;   /* reduced spacing */
       border-bottom: 2px solid #eee;
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.4rem;
     }
 
     ol {
-      padding-left: 1.5rem;
+      padding-left: 0;        /* remove default indentation */
+      list-style: none;       /* remove default numbering dot style */
     }
 
     li {
@@ -66,6 +67,7 @@
       margin-left: 0.5rem;
     }
   </style>
+
 </head>
 <body>
   <nav class="navbar">
